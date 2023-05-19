@@ -1,9 +1,8 @@
 html,
 body {
-    background: #2980B9;
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    min-width: 400px;
+    background-image: url("images/sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #ville {
@@ -18,7 +17,3 @@ body {
     border: solid 2px black;
 }
 
-#changer {
-    background: rgba(178, 223, 251, .3);
-    cursor: pointer;
-}
